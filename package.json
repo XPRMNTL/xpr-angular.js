@@ -1,0 +1,23 @@
+{
+  "name": "xpr-angular",
+  "version": "1.0.0",
+  "description": "Angular Module for using XPRMNTL.toggle",
+  "author": "Dan Crews <crewsd@gmail.com>",
+  "keywords": [
+    "angular",
+    "experiments",
+    "feature flags",
+    "feature toggles",
+    "XPRMNTL"
+  ],
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglifyjs": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
