@@ -1,6 +1,8 @@
-[![XPRMNTL](https://raw.githubusercontent.com/XPRMNTL/XPRMNTL.github.io/master/images/ghLogo.png)](https://github.com/XPRMNTL/XPRMNTL.github.io)
+[![XPRMNTL][logo-image]][logo-url]
 # XPR-Angular.js
-[![NPM version](https://img.shields.io/npm/v/xpr-angular.svg)](https://www.npmjs.org/package/xpr-angular)
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
+[![Tips][gratipay-image]][gratipay-url]
 
 This is an Angular.js plugin for XPRMNTL [xpr-toggle](https://github.com/XPRMNTL/xpr-toggle.js).
 This adds an Angular directive that allows you to enable elements when a feature is turned on.
@@ -23,3 +25,12 @@ Then you can use it on your page
 ```
 
 This element will only be visible when the feature `expName1` is enabled.
+
+[logo-image]: https://raw.githubusercontent.com/XPRMNTL/XPRMNTL.github.io/master/images/ghLogo.png
+[logo-url]: https://github.com/XPRMNTL/XPRMNTL.github.io
+[npm-image]: https://img.shields.io/npm/v/xpr-angular.svg
+[npm-url]: https://www.npmjs.org/package/xpr-angular
+[downloads-image]: https://img.shields.io/npm/dm/xpr-angular.svg
+[downloads-url]: https://www.npmjs.org/package/xpr-angular
+[gratipay-image]: https://img.shields.io/gratipay/dncrews.svg
+[gratipay-url]: https://www.gratipay.com/dncrews/
