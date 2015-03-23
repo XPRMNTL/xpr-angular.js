@@ -25,28 +25,38 @@
   'use strict';
 
   angular.module('xpr-angular')
-    .directive('xprFeature', [
+    .directive('xprFeature', directiveFactory(true))
+    .directive('xprFeatureElse', directiveFactory(false));
+
+  function directiveFactory(truthy) {
+    var key = truthy ? 'xprFeature' : 'xprFeatureElse';
+
+    return [
       'xprService',
 
-      function xprFeature(service) {
+      function xprDirective(service) {
+
         return {
           scope: false,
 
           link: function(scope, elem, attr) {
-            var feature = attr.xprFeature;
+            var feature = attr[key];
 
             if (! service.feature) return elem.remove();
 
             scope.$watch(function() {
               return service.feature(feature);
             }, function(curr) {
-              if (curr) return elem.removeClass('hide');
+              if (truthy === curr) return elem.removeClass('hide');
               elem.addClass('hide');
             });
           }
         };
+
       }
-    ]);
+    ];
+
+  }
 
 })(window.angular);
 
