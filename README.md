@@ -5,7 +5,7 @@
 [![Tips][gratipay-image]][gratipay-url]
 
 This is an Angular.js plugin for XPRMNTL [xpr-toggle](https://github.com/XPRMNTL/xpr-toggle.js).
-This adds an Angular directive that allows you to enable elements when a feature is turned on.
+This adds Angular directives that allow you to enable elements when a feature is turned on.
 
 # Usage
 
@@ -19,12 +19,11 @@ Then make sure that it's included in your app's dependencies during module creat
 angular.module('appName', [ xpr-feature ]);
 ```
 
-Then you can use it on your page
+Then you can use them on your page
 ```html
-<div data-xpr-feature="expName1"></div>
+<div data-xpr-feature="expName1">This will show if and only if feature flag is enabled</div>
+<div data-xpr-feature-else="expName1">This will show if and only if the feature flag is disabled</div>
 ```
-
-This element will only be visible when the feature `expName1` is enabled.
 
 [logo-image]: https://raw.githubusercontent.com/XPRMNTL/XPRMNTL.github.io/master/images/ghLogo.png
 [logo-url]: https://github.com/XPRMNTL/XPRMNTL.github.io
