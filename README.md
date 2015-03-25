@@ -16,7 +16,7 @@ First you have to include the JS file
 
 Then make sure that it's included in your app's dependencies during module creation.
 ```js
-angular.module('appName', [ xpr-feature ]);
+angular.module('appName', [ 'xpr-angular' ]);
 ```
 
 Then you can use them on your page
