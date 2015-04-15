@@ -1,5 +1,6 @@
 [![XPRMNTL][logo-image]][logo-url]
 # XPR-Angular.js
+![Bower version][bower-image]
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
 [![Tips][gratipay-image]][gratipay-url]
@@ -29,6 +30,7 @@ Then you can use them on your page
 [logo-url]: https://github.com/XPRMNTL/XPRMNTL.github.io
 [npm-image]: https://img.shields.io/npm/v/xpr-angular.svg
 [npm-url]: https://www.npmjs.org/package/xpr-angular
+[bower-image]: https://img.shields.io/bower/v/xpr-angular.svg
 [downloads-image]: https://img.shields.io/npm/dm/xpr-angular.svg
 [downloads-url]: https://www.npmjs.org/package/xpr-angular
 [gratipay-image]: https://img.shields.io/gratipay/dncrews.svg
