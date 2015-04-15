@@ -1,4 +1,14 @@
 /**
+ * # xpr-angular
+ * ## Angular Module for using XPRMNTL.toggle
+ *
+ * @version v1.1.0
+ * @link https://github.com/XPRMNTL/xpr-angular.js.git
+ * @license MIT
+ * @author Dan Crews <crewsd@gmail.com>
+ */
+
+/**
  * xpr-angular
  *
  * /src/module.js
