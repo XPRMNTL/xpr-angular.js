@@ -54,3 +54,7 @@ gulp.task('uglify', [ 'clean', 'concat', 'header' ], function() {
     .pipe(uglify(dest.replace(/\.js$/, '.min.js')))
     .pipe(gulp.dest('./'));
 });
+
+gulp.task('watch', [ 'build' ], function() {
+  gulp.watch('src/*.js', [ 'build' ]);
+});
