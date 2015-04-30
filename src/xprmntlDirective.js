@@ -27,6 +27,8 @@
           link: function(scope, elem, attr) {
             var feature = attr[key];
 
+            if (!feature.length) return;
+
             if (! service.feature) return elem.remove();
 
             scope.$watch(function() {
