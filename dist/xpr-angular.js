@@ -2,7 +2,7 @@
  * # xpr-angular
  * ## Angular Module for using XPRMNTL.toggle
  *
- * @version v1.3.0
+ * @version v1.3.1
  * @link https://github.com/XPRMNTL/xpr-angular.js.git
  * @license MIT
  * @author Dan Crews <crewsd@gmail.com>
@@ -51,6 +51,8 @@
 
           link: function(scope, elem, attr) {
             var feature = attr[key];
+
+            if (!feature.length) return;
 
             if (! service.feature) return elem.remove();
 
