@@ -1,5 +1,7 @@
 [![XPRMNTL][logo-image]][logo-url]
 # XPR-Angular.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/XPRMNTL/xpr-angular.js.svg)](https://greenkeeper.io/)
 ![Bower version][bower-image]
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
