@@ -16,10 +16,10 @@
     "url": "https://github.com/XPRMNTL/xpr-angular.js.git"
   },
   "devDependencies": {
-    "del": "^1.1.1",
+    "del": "^3.0.0",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
-    "gulp-header": "^1.2.2",
+    "gulp-header": "^2.0.5",
     "gulp-rename": "^1.2.0",
     "gulp-uglifyjs": "^0.6.1"
   },
